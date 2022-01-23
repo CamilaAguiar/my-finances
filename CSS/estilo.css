@@ -160,8 +160,10 @@ header {
 
 /* table **********************/
 #transaction {
+    display: block;
     width: 100%;
     padding-top: 2rem;
+    overflow-x: auto;
 }
 
 #transaction h2 {
@@ -170,11 +172,8 @@ header {
 }
 
 #data-table { 
-    display: block;
     width: 100%;
     border-spacing: 0 0.5rem;
-    overflow-x: auto;
-    overflow-x: hidden;
 }
 
 table thead tr th:first-child, table tbody tr td:first-child {
