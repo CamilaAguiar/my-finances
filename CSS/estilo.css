@@ -55,7 +55,7 @@ body {
 
 h1 {
     font-weight: normal;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -126,14 +126,13 @@ header {
 
 /* card **************************/
 #balance {
-    width: 100%rem;
+    width: 100%;
 }
 
 .card {
     border: 1px solid #F08080;
     padding: 1.1rem 2rem 1.1rem 2rem;
     border-radius: 0.25rem;
-    margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     box-shadow: 2px 2px 15px #F08080;
     width: 100%;
@@ -161,10 +160,7 @@ header {
 
 /* table **********************/
 #transaction {
-    display: block;
     width: 100%;
-    overflow-x: auto;
-    overflow-x: hidden;
     padding-top: 2rem;
 }
 
@@ -174,8 +170,11 @@ header {
 }
 
 #data-table { 
+    display: block;
     width: 100%;
     border-spacing: 0 0.5rem;
+    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 table thead tr th:first-child, table tbody tr td:first-child {
@@ -280,6 +279,10 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#padding-data{
+    padding-bottom: 1rem;
 }
 
 /* footer **************************/
