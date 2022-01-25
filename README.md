@@ -23,7 +23,7 @@ url: https://camilaaguiar.github.io/my-finances/
 
 <br>
 
-## Linguagens
+## :earth_americas: Linguagens
 
 <div>
 
